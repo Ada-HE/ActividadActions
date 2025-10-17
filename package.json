@@ -9,6 +9,7 @@
     "dev": "vite",
     "test": "vitest",
     "lint": "standard",
+    "lint:fix": "standard --fix",
     "coverage": "vitest run --coverage"
   },
   "keywords": [],
@@ -27,10 +28,5 @@
     "mathjs": "^12.4.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
-  },
-  "eslintConfig":{
-    "extends":[
-      "./node:modules/standard/eslintrc.json"
-    ]
   }
 }
